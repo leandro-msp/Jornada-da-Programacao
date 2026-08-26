@@ -11,10 +11,13 @@ echo"Case 2 'if Else'\n";
 
 if ($idade>=1 && $idade<=13){
     echo"Você é uma Criança\n";
+
 }else if( $idade>=14 && $idade<=17){
     echo"Você é adolescente\n";
+
 }else if ($idade>=18 && $idade<=59) {
     echo "Você é Adulto\n";
+    
 }else if ($idade<1){
     echo "Digite um valor maior ou igual a 1!\n";
 }else{ echo"Você é idoso\n";}
