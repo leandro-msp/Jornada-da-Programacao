@@ -102,6 +102,8 @@ $idade2 = 18;
 $idade3 = 30;
 $idade4 = 30;
 
+//NEGAÇÃO
+
 $a1 =  $idade1 < $idade2;
 $a2 = !($idade1 < $idade2);
 
