@@ -39,10 +39,10 @@
     <h2> Operador de String </h2>
     
     <?php
-    $a = "Maria "; //$a = Maria 
-    echo "$a <br>"; //$b = Maria
-    $b = "Leopoldina "; //Leopoldina
-    echo "$b <br>"; // Leopoldina
+    $a = "Maria ";
+    echo "$a <br>"; 
+    $b = "Leopoldina "; 
+    echo "$b <br>"; 
     echo $a . $b; // Maria Leopoldina
     $b .= $a; // $b = Leopoldina Maria // a variável $b assume, agora, também o conteúdo da variável $a
     $b .= "Pedro"; // aqui, agora, a variável $b assume também o conteúdo da string 
