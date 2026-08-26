@@ -34,7 +34,7 @@ f = "10"
 igual = (a == f) # == --> confere se os valores e tipos são iguais | a=10, porém f="10", A é tipo inteiro e F tipo String
 maiorQue = b > a # b(20) é maior que a(10) ? True
 menorQue = c < d # c(30) é menor que d(40) ? True
-maiorIgual = (b + c) >= d # a sooma de b(20) + c(30) --> 50 é manior ou igual a d(40) ? True
+maiorIgual = (b + c) >= d # a soma de b(20) + c(30) --> 50 é manior ou igual a d(40) ? True
 menorIgual = a <= e # a(10) menor ou igual a e(2) ? False
 diferenteDe = b != a+a #b(20) é diferente de a(10) + a(10) ? False
 
