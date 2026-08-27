@@ -10,6 +10,8 @@ while(repetir=="s"):        # enquanto a varíavel permanecer com este valor ir�
     média = (av1+av2) / 2
     print ("A média do Aluno", aluno, "foi: ", média)
     
-    # aqui que "decide" se o código vai rodar novamente, pois será atribuído um valor para a varíavel do início do código, e se ele for "s", instrução irá rodar novamente, até q o valor seja outro
-    repetir = input("Caso queira calcular nova média, digite 's', caso contrário digite: 'n' : ")  # foi colocado "N" só por padrão, porém qualquer coisa digitada que seja diferente de S, já encerra o looping
+    # aqui que "decide" se o código vai rodar novamente, pois será atribuído um valor para a varíavel do início do código, e se ele for "s", instrução irá rodar novamente
+    repetir = input("Caso queira calcular nova média, digite 's', caso contrário digite: 'n' : ")
+    while (repetir!="s" and repetir!="n"):
+        repetir = input("Comando não aceito, digite somente 's' ou 'n'!:")
 print("Fim da operação!!")
