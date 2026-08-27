@@ -34,7 +34,7 @@ print("Total Compra: R$", totalCompra)
 #COMPOSTA
 emailCadastrado = "jose@email.com"
 senhaCadastrada = "123"
-emailDigitado = input("Digite seu email: ")
+emailDigitado = input("Digite seu email: ").lower()
 senhaDigitada = input("Digite sua senha: ")
 
 if ((emailDigitado == emailCadastrado) and (senhaDigitada==senhaCadastrada)): # autenticação -- > tipo de lógica aplicada em verificação de dados salvos no banco de Dados;
