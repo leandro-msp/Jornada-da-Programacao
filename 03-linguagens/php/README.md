@@ -22,23 +22,20 @@ Diferente do conteúdo de fundamentos, o objetivo deste conteúdo exclusivo não
 
 1. Clone o repositório: 
 
-bash
+```bash
 
-git clone https://github.com/seu-usuario/seu-repositorio.git
-
+git clone https://github.com/leandro-msp/Jornada-da-Programacao
+```
 
 2. Acesse o diretório do projeto: 
-
-bash
-
-cd seu-repositorio
+```bash
+cd jornada-da-programacao/03-linguagens/php
+```
 
 3. Inicie o servidor embutido do PHP: 
 
-bash
-
+```bash
 php -S localhost:8000
-
-
+```
 4. Acesse no navegador: http://localhost:8000
     
