@@ -13,37 +13,80 @@ Ambiente central para registro e organização dos meus estudos na linguagem Pyt
 ### Como Executar os Scripts
 
 Se você deseja clonar este repositório e executar os projetos localmente sem poluir o seu ambiente global do Python, siga os passos abaixo para configurar o ambiente virtual (`.venv`).
+  > esta etapa é recomendada, pois há scripts que utilizam bibliotecas específicas, caso não estejam presentes, a execução do código não irá funcionar.
 
 ### 1. Clonar o repositório
 ```bash
 git clone https://github.com/leandro-msp/Jornada-da-Programacao
+```
+entre na pasta do proejeto
+```bash
 cd jornada-da-programacao/03-linguagens/python
 ```
 ### 2. Criar e ativar o Ambiente Virtual (.venv)
-  ainda no terminal dentro da pasta python, digite:
+  para criar o ambiente virtual digite:
+
+  WINDOWS:
   ```bash
   python -m venv .venv
   ```
-  e
+  LINUX:
+  ```bash
+  python3 -m venv .venv
+  ```
+
+  Ativando o ambiente:
+
+  WINDOWS:
   ```bash
   .\.venv\Scripts\Activate.ps1
   ``` 
+  LINUX:
+  ```bash 
+  source .venv/bin/activate
+  ```
+  
 ### 3. Instalar as Dependências
 
 Com o ambiente virtual ativado, instale todas as bibliotecas necessárias executando:
 ```bash
 pip install -r requirements.txt
 ```
-### Executando os Jupyter Notebooks (.ipynb) e arquivos.py que necessitam das bibliotecas
-Para rodar os notebooks .ipynb no VS Code:
+### Executando os Jupyter Notebooks (.ipynb) e arquivos.py com suas rescpectivas dependências
 
-Abra o arquivo .ipynb desejado.
+com o VSCode abra o arquivo .ipynb desejado e clique em Run(botão play no canto superior esquero da célula)
+
+# ATENÇÃO
+ >>> caso a .venv não seja detectada automaticamente como kernel padrão,(no canto superior direito o Kernel selecionado ainda está Python 3.x.x, em vez de .venv(V3x...)) siga as instruções abaixo:
 
 No canto superior direito do notebook, clique em **Select Kernel (ou Selecionar Kernel)**.
 
 Selecione **Python Environments...** e escolha a versão referente à pasta .venv do projeto.
 
-Caso não apareça automaticamente, selecione **"Enter interpreter path..."** e aponte para **.\.venv\Scripts\python.exe.**(navegue até onde você clonou o repositório, entre na pasta .venv\Scripts\ e selecione python.exe).
-     
+Se ainda assim não aparecer ".venv(V3.X...)Python(3.X...):
 
+Windows:
+
+Caso não apareça, selecione **"Enter interpreter path..."** e aponte para **.\.venv\Scripts\python.exe.**(navegue até onde você clonou o repositório, entre na pasta .venv\Scripts\ e selecione python.exe).
+
+Linux: 
+
+(Forçe o registro do Kernel)
+Acesse o terminal, e cole o comando abaixo. Certifique-se que seu endereço esteja aparecendo "(.venv) no início, isso significa que as manipulações, serão aplicadas dentro do ambiente virtual.
+
+```bash
+python -m ipykernel install --user --name=meu_env_linux --display-name "Python (.venv)"
+``` 
+
+Feche seu VSCode, e abra novamente e veja se sua .venv agora está listada como um kernel.
+  
+# Arquivos PY
+
+Para executar arquivos.py segue-se o mesmo tratamento. Selecione/abra o arquivo desejado e no canto inferior direito do seu VS Code, na barra de status, clique onde está indicando Python 3.X.X, e procure o local onde está o executável da sua .venv:
+
+WINDOWS:
+ > ./.venv/bin/python
+
+LINUX:
+ > .\.venv\Scripts\python.exe
 
