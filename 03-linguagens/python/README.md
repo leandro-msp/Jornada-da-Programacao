@@ -1,8 +1,8 @@
-### Estudos em Python
+# Estudos em Python
 
 Ambiente central para registro e organização dos meus estudos na linguagem Python. O projeto contém exercícios de fixação, scripts e pequenos algoritmos **focados** na aplicação prática de conceitos desenvolvidos em aulas e cursos. 
 
-### Conteúdos do Repositório
+## Conteúdos do Repositório
 
 * **Lógica & Algoritmos:** Resolução de problemas e estruturação de pensamento lógico.
 * **Cenários Aplicáveis:** Casos de uso reais e simulações do dia a dia.
@@ -10,21 +10,47 @@ Ambiente central para registro e organização dos meus estudos na linguagem Pyt
 * **Estruturas de Dados:** Manipulação de listas, dicionários, tuplas e conjuntos.
 * **Pequenos Projetos:** Aplicações completas para consolidação do aprendizado.
 
+---
+
 ### Como Executar os Scripts
 
 Se você deseja clonar este repositório e executar os projetos localmente sem poluir o seu ambiente global do Python, siga os passos abaixo para configurar o ambiente virtual (`.venv`).
   > esta etapa é recomendada, pois há scripts que utilizam bibliotecas específicas, caso não estejam presentes, a execução do código não irá funcionar.
 
 ### 1. Clonar o repositório
+
+**OPÇÃO 1 - Clonar o repositório completo:**
+> acesse o terminal de sua preferência e execute:
+
 ```bash
 git clone https://github.com/leandro-msp/Jornada-da-Programacao
 ```
-entre na pasta do proejeto
+---
+**OPÇÃO 2 - Clonar somente a pasta Python(recomendado):**
+> acesse o terminal de sua preferência e execute:
+
+```bash
+git clone --filter=blob:none --sparse https://github.com/leandro-msp/Jornada-da-Programacao
+```
+Entre na pasta do repositório clonado:
+
+```bash
+cd Jornada-da-Programacao
+```
+Define para o Git trazer apenas a pasta desejada:
+
+```bash
+git sparse-checkout set 03-linguagens/python
+```
+---
+
+**2.Entre na pasta do projeto:**
 ```bash
 cd jornada-da-programacao/03-linguagens/python
 ```
-### 2. Criar e ativar o Ambiente Virtual (.venv)
-  para criar o ambiente virtual digite:
+
+### 3. Criar e ativar o Ambiente Virtual (.venv)
+  Para criar o ambiente virtual digite:
 
   WINDOWS:
   ```bash
@@ -35,7 +61,7 @@ cd jornada-da-programacao/03-linguagens/python
   python3 -m venv .venv
   ```
 
-  Ativando o ambiente:
+  **Ativando o ambiente:**
 
   WINDOWS:
   ```bash
@@ -46,7 +72,7 @@ cd jornada-da-programacao/03-linguagens/python
   source .venv/bin/activate
   ```
   
-### 3. Instalar as Dependências
+### 4. Instalar as Dependências
 
 Com o ambiente virtual ativado, instale todas as bibliotecas necessárias executando:
 ```bash
@@ -57,7 +83,7 @@ pip install -r requirements.txt
 com o VSCode abra o arquivo .ipynb desejado e clique em Run(botão play no canto superior esquero da célula)
 
 # ATENÇÃO
- >>> caso a .venv não seja detectada automaticamente como kernel padrão,(no canto superior direito o Kernel selecionado ainda está Python 3.x.x, em vez de .venv(V3x...)) siga as instruções abaixo:
+ > caso a .venv não seja detectada automaticamente como kernel padrão,(no canto superior direito o Kernel selecionado ainda está Python 3.x.x, em vez de .venv(V3x...)) siga as instruções abaixo:
 
 No canto superior direito do notebook, clique em **Select Kernel (ou Selecionar Kernel)**.
 
