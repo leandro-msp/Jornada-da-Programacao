@@ -24,24 +24,24 @@ Para facilitar o desenvolvimento e os testes locais em qualquer máquina sem a n
 1. Clone o repositório (Opção 1 - Repositório Completo): 
 
 ```bash
-    git clone https://github.com/leandro-msp/Jornada-da-Programacao
+git clone https://github.com/leandro-msp/Jornada-da-Programacao
 ```
 
 Caso opte em não baixar **todo o conteúdo do repositório geral(todas as pastas)**, pode clonar apenas a pasta específica (Opção 2 - **somente pasta PHP**)(*RECOMENDADO*):
 
-    ```bash
-    git clone --filter=blob:none --sparse https://github.com/leandro-msp/Jornada-da-Programacao
-    ```
+```bash
+git clone --filter=blob:none --sparse https://github.com/leandro-msp/Jornada-da-Programacao
+```
 Entre na pasta do repositório clonado:
 
-    ```bash
-    cd Jornada-da-Programacao
-    ```
+```bash
+cd Jornada-da-Programacao
+```
 Define para o Git trazer apenas a pasta desejada:
 
-    ```bash
-    git sparse-checkout set 03-linguagens/php
-    ```
+```bash
+git sparse-checkout set 03-linguagens/php
+```
 
 
 2. Acesse o diretório do projeto: 
@@ -67,7 +67,10 @@ Escolha a instrução de acordo com o seu **sistema operacional e terminal prefe
 ```bash
 start 
 ```
-> (ou start.bat)
+> ou 
+```bash
+start.bat
+```
 
 **Windows (PowerShell):**
 > Se estiver utilizando o terminal PowerShell
