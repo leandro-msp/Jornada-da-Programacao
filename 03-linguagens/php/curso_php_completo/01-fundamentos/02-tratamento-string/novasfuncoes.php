@@ -26,6 +26,5 @@ var_dump(str_ends_with($mensagem,'PHP')); // verfica se a string termina com o v
 #método com formatação no var_dump para não cair no case sensitive
 
 // ex.:
-
 echo "Ends With -> php minúsculo: ";
 var_dump(str_ends_with(strtolower($mensagem),'php'));
