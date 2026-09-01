@@ -35,5 +35,21 @@ $extrair = substr($string1,8,12);
 
 echo $extrair."\n";
 
+$codigo = 5;
 
+# Adicionar caracateres á string - função str_pad()
+
+$padEsquerda = str_pad($codigo,8,'0',STR_PAD_LEFT);
+$padDireita = str_pad($codigo,8,'0',STR_PAD_RIGHT);
+
+/* função str_pad possui 4 parâmetros:
+1 - onde será alterado
+2 - a quantidade total de caracteres que deve possuir
+3 - qual caracterese será adicionado até completar as quantidade definida
+4 - a posição que será adicionado antes ou depois do valor resgatado do banco de dados, por exemplo.
+*/
+
+echo "\nValor original: $codigo \n";
+echo "Caractere add à esquerda: $padEsquerda \n";
+echo "Caractere add à direita: $padDireita \n";
 
