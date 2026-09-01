@@ -10,7 +10,7 @@ $possui = str_contains($mensagem,'completo');
 echo "Possui: ".$possui."\n"; // 1 = true (possui recebeu valor boolean, que em um comando echo é tratado como 0 ou 1)
 echo "GETTYPE: ".gettype($possui)."\n"; // <- gettype mostra apenas o tipo, mas não o valor (true ou false)
 
-// neste cenário, conforme a necessidade da lógica  a varíavel $possui pode ser utilizada para operações lógicas(condição, comparação).
+// neste cenário, conforme a necessidade do sistema a variável $possui pode ser utilizada para operações lógicas(condição, comparação).
 
 
 echo 'var_dump($possui): ';
