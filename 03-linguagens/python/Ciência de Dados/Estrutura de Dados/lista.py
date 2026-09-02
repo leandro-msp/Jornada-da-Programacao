@@ -9,7 +9,6 @@ print (aluno[4])
 
 print ("*" * 80)
 
-aluno = ['Leonardo','Ricardo','Monica','Fernanda','Luiza']
 for alunoaux in aluno: # para cada elemento na lista (variavel aluno), atribui em alunoaux
     print(alunoaux)
     
