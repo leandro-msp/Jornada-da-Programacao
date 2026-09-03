@@ -7,7 +7,7 @@ print ("::::::::DICIONÁRIO COMPLETO::::::::\n"
 print("::::::::CHAVES NO DICIONÁRIO::::::::")
 
 
-for chave in estudo:
+for chave in estudo: # cada item dentro do dicionário estudo será atribuido á varíavel chave e posteriormente será impresso
     print (chave)
     
 # RECUPERANDO VALORES 
@@ -20,13 +20,13 @@ print ("Recuperando pelo índice:\n",
 #opção2
 print ("Método simples:")
 
-valores = estudo.values()
+valores = estudo.values() # método values() extrai somente os valores dentro das chaves:
 print(valores)
 
 #opção3
 print ("\nUtilizando o FOR:")
 
-for valor in estudo.values(): # método values() extrai somente os valores dentro das chaves:
+for valor in estudo.values(): 
     print (valor)
 
 #RECUPERANDO CHAVE E VALOR
@@ -36,13 +36,13 @@ print ("::::::::CHAVE/VALOR::::::::")
 print ("SIMPLES:")
 
 #opção2
-chaveValor= estudo.items()
+chaveValor= estudo.items() # o método items() retorna pares de chave-valor.
 print(chaveValor)
 
 #opção3
 print ("\nUtilizando o FOR:")
 
-for chave,valor in estudo.items(): # o método items() retorna pares de chave-valor.
+for chave,valor in estudo.items(): 
     print (chave,":",valor)
 
 
