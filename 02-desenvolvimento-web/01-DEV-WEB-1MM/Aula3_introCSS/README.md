@@ -29,7 +29,7 @@ body{
 ```bash
 <h1 style ="color:blue;">Texto</h1>
 ```
-* **Interno:** estilos são definidos no cabeçalho da (documento) página
+* **Interno:** estilos são definidos no cabeçalho da página (documento):
 ```bash
 <style>
 	h1{
