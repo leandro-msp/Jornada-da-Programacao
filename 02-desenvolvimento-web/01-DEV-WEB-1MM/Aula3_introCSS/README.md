@@ -14,7 +14,7 @@ CSS (Cascading Style Sheet : Folhas de Estilo em Cascata): é uma linguagem de e
 
 **ex.:**
 ```bash
-<body> {
+body{
 	background-color: blue;
 	}
 ```
