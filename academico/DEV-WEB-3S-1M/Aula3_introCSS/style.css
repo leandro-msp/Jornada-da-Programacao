@@ -1,0 +1,24 @@
+body{
+    padding: 25px;
+    background-color: rgb(65, 65, 65);
+
+} 
+.title{
+    color: red;
+}h1{
+    color: rgb(0, 174, 255);
+}
+h2 {
+    color:rgb(106, 191, 227)
+}
+.par1{
+    color: rgb(161, 230, 242);
+}
+
+.par2{
+    color: #caee28;
+}
+
+#teste{
+    color: crimson;
+}
