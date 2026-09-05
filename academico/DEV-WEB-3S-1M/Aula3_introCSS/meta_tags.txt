@@ -1,0 +1,29 @@
+Desenvolvimento WEB - AULA 3 - 04/09/2026
+
+Meta informação:
+	refere-se a informações sobre a própria página, que não aparecem diretamente para o usuário no corpo do site, mas que são fundamentais para os navegadores, mecanismos de busca e outros sistemas entenderem o conteúdo
+	
+Usuário:
+	faz 3 tipos de buscas:
+		Navegacional:
+			o user sabe o site que deseja.
+		Informacional:
+			o user busca respostas sem uma intenção clara do site.
+		Trasacional:
+			o user deseja realizar uma ação, como comprar um produto ou usar internet banking.
+			
+TAG Meta:
+	 vai dentro da tag <head> e nela que são adicionado os atributos de configurações
+	 
+	 
+	 < meta name = "" > terão informações que serão utilizadas pelos buscadores
+	
+	 < meta htt-equiv "" > informações que serão passadas para o navegador
+	
+	 < meta property = "" > seu conteúdio é destinado ao uso em redes sociais. (Facebook, instagram, linkedin, WhatsApp, por exemplo)
+	
+	 < meta chartset = "" > utilizado para especificar a codificação de caracateres para a página, que determina como os caracteres suportados pelo 
+	 navegador serão apresentados na tela
+	 
+	 
+	 
