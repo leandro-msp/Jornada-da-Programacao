@@ -7,7 +7,7 @@
 <body style="background-color: #D7EBF1;">
     <h1 style="color:blueviolet">Curso PHP Completo + Projetos</h1>
     <ul>
-        <h2>Fundamentos</h2>
+        <h1>Fundamentos</h1>
          <h4 style="color: red;">AVISO:<br>Tópicos "Variáveis, Tratamento String, e Arrays" a quebra de linha está formatada para saídas no terminal(exceto o arquivo de constantes)</h4>
 
         <h3>Variáveis e Constantes</h3>
