@@ -45,7 +45,7 @@ O desenvolvimento destas disciplinas envolve o uso de ferramentas e linguagens m
 ---
 
 ## Orientações
-* **Cada pasta** possue um guia para testar os códigos. Nenhum deles será necessário a instalação de programas ou servidores pesados para rodar os testes.
+* **Cada pasta** possui um guia para testar os códigos. Nenhum deles será necessário a instalação de programas ou servidores pesados para rodar os testes.
     * **PHP** -> PHP 8.X
     * **JS** -> Node e npm (recomenda-se a extensão Live Server do VS Code)
     * **Python** -> conta com um ambiente virtual embutido (.venv)
