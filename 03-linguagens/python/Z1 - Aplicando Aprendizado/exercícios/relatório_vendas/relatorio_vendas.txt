@@ -1,5 +1,0 @@
-=== RELATÓRIO DE PREVISÃO DE VENDAS ===
-Total de anúncios planejados: 250
-Estimativa de vendas total: 355
-Quantidade de funcionários: 5
-Média de vendas por funcionário: 71
