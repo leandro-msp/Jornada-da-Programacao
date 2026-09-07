@@ -2,11 +2,20 @@
 
 print (">>>> CALCULADORA SIMPLES <<<<")
 
+#inserir primeiro valor
 valor1 = int(input("Digite o número: "))
+
+#selecionar o tipo de operação(adição,subtração,multiplicação...)
 operação = input("Digite a operação desejada (+, -, *, /, %, ^):")
+
+#certifica o usuário escolher somente as operações disponíveis
 while operação not in ["+", "-", "*", "/", "%", "^"]: # método mais limpo para detectar se o usuário digitou elementos fora do requisitado
     operação = input("Operação inválida, escolha entre as disponíveis (+, -, *, /, %, ^): ")
+
+#inserir segundo valor 
 valor2 = int(input("Digite outro número: "))
+
+#o match case é mesmo processo do (switch-case de outras linguagens)
 match operação:
     case "+":
         resultado = valor1+valor2
