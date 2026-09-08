@@ -42,13 +42,14 @@ switch($metodo){
         if ($valor_compra>100){
             $desconto1 = $valor_compra * 0.15;
             $valor_final = $valor_compra - $desconto1;
-            echo "Você ganhou 15% de desconto, o valor final da compra é: $valor_final";
+            echo "Você ganhou 15% de desconto, o valor final da compra é:". number_format($valor_final,2)."\n"; 
+                                                                            # number formata possui 2 paramentros, o valor a ser formato, e qual a formatação, neste caso, duas casas decimais
         } elseif($valor_compra<=100){
             $desconto2 = $valor_compra*0.05;
             $valor_final = $valor_compra - $desconto2;
-            echo "Você ganhou 5% de desconto, o valor final da compra é: $valor_final";
+            echo "Você ganhou 5% de desconto, o valor final da compra é:".number_format($valor_final,2)."\n";
         }else {
-            echo "Nenhum valor inserido!";
+            echo "Nenhum valor inserido!\n";
         }
         break;
 
