@@ -34,7 +34,8 @@
         <li><a href="./01-fundamentos/05-estrutura_controle/match.php">Match</a></li>
 
         <h3>Projetos e Exercícios</h3>
-        <li><a href="./projetos-exercicios/Projeto1/projBrowser.php">Recuperando dados</a></li>
+        <li><a href="./projetos-exercicios/Projeto1/versao_navegador.php">Recuperando dados</a></li>
+        <li><a href="./projetos-exercicios/Projeto2/versao_navegador.php">Cálculo de Desconto</a></li>
     </ul>
 </body>
 </html>
