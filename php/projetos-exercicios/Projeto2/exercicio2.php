@@ -24,10 +24,10 @@ switch($metodo){
 
         if($valor_prod>100){
             $valor_prod = $valor_prod-($valor_prod*0.15);
-            echo "Você ganhou 15% de desconto, o valor final é: $valor_prod\n";
+            echo "Você ganhou 15% de desconto, o valor final é: R$". number_format($valor_prod,2)."\n";
         }elseif ($valor_prod<=100){
             $valor_prod = $valor_prod-($valor_prod*0.05);
-            echo "Você ganhou 5% de desconto, o valor final é: $valor_prod\n";
+            echo "Você ganhou 5% de desconto, o valor final é: R$". number_format($valor_prod,2)."\n";
         }else{
             echo "Nenhum valor inserido!\n";
         }
@@ -42,12 +42,12 @@ switch($metodo){
         if ($valor_compra>100){
             $desconto1 = $valor_compra * 0.15;
             $valor_final = $valor_compra - $desconto1;
-            echo "Você ganhou 15% de desconto, o valor final da compra é:". number_format($valor_final,2)."\n"; 
+            echo "Você ganhou 15% de desconto, o valor final da compra é: R$". number_format($valor_final,2)."\n"; 
                                                                             # number formata possui 2 paramentros, o valor a ser formato, e qual a formatação, neste caso, duas casas decimais
         } elseif($valor_compra<=100){
             $desconto2 = $valor_compra*0.05;
             $valor_final = $valor_compra - $desconto2;
-            echo "Você ganhou 5% de desconto, o valor final da compra é:".number_format($valor_final,2)."\n";
+            echo "Você ganhou 5% de desconto, o valor final da compra é: R$".number_format($valor_final,2)."\n";
         }else {
             echo "Nenhum valor inserido!\n";
         }
@@ -63,10 +63,10 @@ switch($metodo){
 
             if ($valor_produto>100){
                 $total_compra = $valor_produto-($valor_produto*$desc1);
-                echo "Você ganhou 15% de desconto, o total da compra é: $total_compra\n";
+                echo "Você ganhou 15% de desconto, o total da compra é: R$".number_format($total_compra,2)."\n";
             } elseif($valor_produto<=100){
                 $total_compra = $valor_produto-($valor_produto*$desc2);
-                echo "Você ganhou 5% de desconto, o total da compra é: $total_compra\n";
+                echo "Você ganhou 5% de desconto, o total da compra é: R$".number_format($total_compra,2)."\n";
             }else{
                 echo "Nenhum valor foi Inserido!\n";
             }
