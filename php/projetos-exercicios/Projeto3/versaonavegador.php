@@ -30,8 +30,6 @@
                     echo "O Número digitado foi $numero, portanto é ímpar.";
                     
                 }
-        
-        
         ?>
        </div>
 </body>
