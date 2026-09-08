@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title>Jornada PHP</title>
+    <title>Curso PHP </title>
 </head>
 <body style="background-color: #D7EBF1;">
     <h1 style="color:blueviolet">Curso PHP Completo + Projetos</h1>
@@ -16,8 +16,8 @@
 
         <h3>Tratamento String</h3>
         <li><a href="./01-fundamentos/02-tratamento-string/string1.php">Tratamento de String(Trim)</a></li>
-        <li><a href="./01-fundamentos/02-tratamento-string/string2.php">Tratamento de String(Upper,Lower,ucfirst,ucwords)</a></li>
-        <li><a href="./01-fundamentos/02-tratamento-string/novasfuncoes.php">Tratamento de String(Contains,Start_With,Ends_With)</a></li>
+        <li><a href="./01-fundamentos/02-tratamento-string/string2.php">Tratamento de String(Upper, Lower, ucfirst, ucwords)</a></li>
+        <li><a href="./01-fundamentos/02-tratamento-string/novasfuncoes.php">Tratamento de String(Contains, Start_With, Ends_With)</a></li>
         
         <h3>Arrays</h3>
         <li><a href="./01-fundamentos/03-arrays/arrays.php">Arrays Indexado e associativo</a></li>
@@ -26,7 +26,15 @@
         <h3>Operadores</h3>
         <li><a href="./01-fundamentos/04-operadores/operadores.php">Operadores Relacionais</a></li>
         <li><a href="./01-fundamentos/04-operadores/logicos.php">Operadores Lógicos</a></li>
+        <li><a href="./01-fundamentos/04-operadores/aritimeticos.php">Operadores Aritiméticos</a></li>
 
+        <h3>Estrutura de Controle</h3>
+        <li><a href="./01-fundamentos/05-estrutura_controle/estruturaControle.php">If e Else</a></li>
+        <li><a href="./01-fundamentos/05-estrutura_controle/switch.php">Switch-Case</a></li>
+        <li><a href="./01-fundamentos/05-estrutura_controle/match.php">Match</a></li>
+
+        <h3>Projetos e Exercícios</h3>
+        <li><a href="./projetos-exercicios/Projeto1/projBrowser.php">Recuperador de dads</a></li>
     </ul>
 </body>
 </html>
