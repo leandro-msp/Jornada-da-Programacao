@@ -7,7 +7,7 @@
 <body style="background-color: #D7EBF1;">
     <h1 style="color:blueviolet">Curso PHP Completo + Projetos</h1>
     <ul>
-        <h1>Fundamentos</h1>
+        <h1 style="color: #03bb85;">Fundamentos</h1>
          <h4 style="color: red;">AVISO:<br>Tópicos "Variáveis, Tratamento String, e Arrays" a quebra de linha está formatada para saídas no terminal(exceto o arquivo de constantes)</h4>
 
         <h3>Variáveis e Constantes</h3>
@@ -33,9 +33,14 @@
         <li><a href="./01-fundamentos/05-estrutura_controle/switch.php">Switch-Case</a></li>
         <li><a href="./01-fundamentos/05-estrutura_controle/match.php">Match</a></li>
 
+        <h3>Estrutura de Repetição</h3>
+        <li><a href="./01-fundamentos/06-estruturaRepeticao/loop.php">For, While e Foreach</a></li>
+        <li><a href="./01-fundamentos/06-estruturaRepeticao/praticando.php">Revisão</a></li>
+
         <h3>Projetos e Exercícios</h3>
         <li><a href="./projetos-exercicios/Projeto1/versao_navegador.php">Recuperando dados</a></li>
         <li><a href="./projetos-exercicios/Projeto2/versao_navegador.php">Cálculo de Desconto</a></li>
+        <li><a href="./projetos-exercicios/Projeto3/versaonavegador.php">Par ou Ímpar</a></li>
     </ul>
 </body>
 </html>
