@@ -22,7 +22,6 @@ mensagem("Nova Mensagem!!"); // toda vez q função é chamada ela não sobrescr
 
 // função com parâmetros e retornos
 
-
 function funcaoSoma(int $num1,int $num2){
     #metodo1
     $soma = $num1+$num2; 
