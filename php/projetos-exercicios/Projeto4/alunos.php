@@ -16,9 +16,10 @@
         ["RA" => 678901234, "nome" => "Rafaela", "nota" => 6]
     ];
 
-    for($aluno=0;$aluno<count($media);$aluno++){
+    for($aluno=0;$aluno<count($media);$aluno++){ // para cada index da lista haverá uma listagem
         echo "RA: ".$media[$aluno]['RA']."<br>Nome: ".$media[$aluno]['nome']."<br>Média: ".$media[$aluno]['nota'];
-        if($media[$aluno]['nota']>=6){
+        // recuperando valores por chave
+        if($media[$aluno]['nota']>=6){// filtragem por nota para informar se o aluno foi aprovado ou reprovado
             echo "<br>Este aluno está aprovado!<hr>";
         }else{
             echo "<br>Este aluno foi reprovado!<hr>";
