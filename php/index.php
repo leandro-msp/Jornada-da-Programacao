@@ -37,10 +37,15 @@
         <li><a href="./01-fundamentos/06-estruturaRepeticao/loop.php">For, While e Foreach</a></li>
         <li><a href="./01-fundamentos/06-estruturaRepeticao/praticando.php">Revisão</a></li>
 
+        <h3>Funções</h3>
+         <li><a href="./02-funcoes/funcoes.php">Criando e chamando uma Função</a></li>
+
         <h3>Projetos e Exercícios</h3>
         <li><a href="./projetos-exercicios/Projeto1/versao_navegador.php">Recuperando dados</a></li>
         <li><a href="./projetos-exercicios/Projeto2/versao_navegador.php">Cálculo de Desconto</a></li>
         <li><a href="./projetos-exercicios/Projeto3/versaonavegador.php">Par ou Ímpar</a></li>
+        <li><a href="./projetos-exercicios/Projeto4/alunos.php">Relatório - Alunos </a></li>
+        <li><a href="./projetos-exercicios/Projeto5/funcao.php">Função - Cálculo Média</a></li>
     </ul>
 </body>
 </html>
