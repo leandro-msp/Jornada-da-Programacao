@@ -1,4 +1,4 @@
-# Jornada da Programação | Processo de desenvolvimento das habilidades através dos estudos.
+# Oficina-Dev | Processo de desenvolvimento das habilidades através dos estudos.
 
   Sou estudante de TADS e, a princípio, focado em Back-End. Neste repositório, você vai encontrar uma compilação organizada do meu processo de aprendizagem. Todo o material relevante que eu desenvolver através das aulas da faculdade e de cursos realizados em plataformas de ensino será disponibilizado neste ambiente.
   
